@@ -1,7 +1,7 @@
 ## Front-end Dev Docs
 *Author: [JoJo Hsu](<mailto: jiaweixu@cloud3edu.com>)*
 
-> Here is the docs for Cloud3edu Dev Team.
+> Here is the docs for Cloud3edu Dev Team.  
 > Contain data validation plan and some interact logic.
 
 *2014/5/6 13:00 Updated：*
