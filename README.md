@@ -1,5 +1,5 @@
 ## Front-end Dev Docs
-*Author: [JoJo Hsu](<jiaweixu@cloud3edu.com>)*
+*Author: [JoJo Hsu](<mailto: jiaweixu@cloud3edu.com>)*
 
 > Here is the docs for Cloud3edu Dev Team.
 > 
