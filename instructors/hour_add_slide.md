@@ -14,11 +14,17 @@
 
 ##### 添加问题
 * 当任何textarea或input内value变化，该input或textarea blur之后，在function区域显示已保存。
-* 选择题默认创建3个选项，选项textarea内无内容时该选项置灰，正确答案的check标识不出现，上课时不出现该选项；当有内容时，选项active，出现正确答案的check按钮。
-* 选择题最少2个选项，A、B选项的placeholder：请输入选项，A选项必填；请输入选项，B选项必填；B选项之后的选项placeholder：请输入选项，留空则选项X不会显示；选项长度1-300个字符。
 * 合法问题数据为textare内容＋图片 ／ textarea内容 ／ 图片，不满足这3种情况为非法数据，出现提示：请输入问题或上传问题图片。
 * 问题textarea placeholder：请输入问题；问题长度1-1000个字符。
 * Textarea高度固定，value垂直居中，超出高度出现滚动条。
+
+##### 添加问题@上传图片
+
+
+##### 选择题
+* 默认创建3个选项，选项textarea内无内容时该选项置灰，正确答案的check标识不出现，上课时不出现该选项；当有内容时，选项active，出现正确答案的check按钮。
+* 最少2个选项，A、B选项的placeholder：请输入选项，该选项必填；B选项之后的选项placeholder：请输入选项，留空则选项X不会显示；选项长度1-300个字符。
+* 选项答案的颜色依次为：#F16C47、#F1AE47、#3DBF12、#08B570、#0888B5、#8E08B5、#B5086A，超过7个选项则从第一个选项开始循环。
 
 ##### Slide Nav
 * 在Slide thumbnail区域及下方padding区域Hover，出现添加问题btn及show btn
