@@ -1,4 +1,15 @@
 ## Front-end Dev Docs
+*Author: [JoJo Hsu](<jiaweixu@cloud3edu.com>)*
+
+> Here is the docs for Cloud3edu Dev Team.
+> 
+> Contain data validation plan and some interact logic.
+
+*2014/5/6 13:00 Updated：*
+
+* Slide upload logic modified
+* Slide manage added beside question upload logic
+
 *2014/5/5 11:00 Updated：*
 
 * Course create workflow done
