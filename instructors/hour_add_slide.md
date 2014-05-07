@@ -12,6 +12,10 @@
 * Lesson Dropdown可自由选择课时，选择后会在左侧导航插入对应的课时。如：当前有3个课时，如果将当前的Lesson 3改为Lesson 4，会在Lesson 2下自动追加Lesson 3课时，如将当前课时改为Lesson 3，会自动删除自动生成的Lesson 3课时；下拉内容仅支持3个课时（包括当前课时），如当前Lesson 3，下拉列表为Lesson 3、Lesson 4、Lesson 5。
 * Title不能为空，长度在1-40个字节，Placeholder：请输入当前课时的名称。
 
+##### Slide
+* Slide responsive规则：slide宽度超出容器宽度、slide高度小于容器高度，则同比缩放至容器宽度；slide高度超出容器高度、slide宽度小于容器宽度，则同比缩放至容器高度。
+* 点击slide在容器内以原图大小1:1显示，超出容器部分显示上下滚动条；再次点击后回到上一状态。
+
 ##### 添加问题
 * 当任何textarea或input内value变化，该input或textarea blur之后，在function区域显示已保存。
 * 合法问题数据为textare内容＋图片 ／ textarea内容 ／ 图片，不满足这3种情况为非法数据，出现提示：请输入问题或上传问题图片。
@@ -19,7 +23,9 @@
 * Textarea高度固定，value垂直居中，超出高度出现滚动条。
 
 ##### 添加问题@上传图片
-
+* 通过问题旁的upload icon触发OS upload frame，选择合法图片（png、gif、jpg）后进入crop界面；选择非法文件时给出提示：暂不支持你选择的文件格式。
+* crop界面右侧显示actual size的preview，该区域宽高度固定；左边显示crop后的实时preview，该区域高度固定，宽度responsive。
+* 点击删除回到初始界面，文字信息保留，点击完成进入preview界面。在preview界面中，高度固定，上传的图片点击后放大，放大逻辑同slide。
 
 ##### 选择题
 * 默认创建3个选项，选项textarea内无内容时该选项置灰，正确答案的check标识不出现，上课时不出现该选项；当有内容时，选项active，出现正确答案的check按钮。
