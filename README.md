@@ -4,6 +4,10 @@
 > Here is the docs for Cloud3edu Dev Team.  
 > Contain data validation plan and some interact logic.
 
+*2014/5/28 11:00 Updated：*
+
+* Discussion added
+
 *2014/5/7 18:00 Updated：*
 
 * Question added done
